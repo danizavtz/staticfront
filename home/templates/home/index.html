@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block head_title %}Projeto PWA{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+                    <h3><strong>Comida</strong></h3>
+                    <img src="{% static 'img/img01.jpeg' %}" width="100%">
+                    <p><small>Estatísticas</small></p>
+                    <a class="btn btn-primary">Facebook</a>
+                    <a class="btn btn-warning">Tweet</a>
+                    <a class="btn btn-danger">°°°</a>
+                    <h3><strong>Fruta</strong></h3>
+                    <img src="{% static 'img/img02.jpeg' %}" width="100%">
+                    <p><small>Estatísticas</small></p>
+                    <a class="btn btn-primary">Facebook</a>
+                    <a class="btn btn-warning">Tweet</a>
+                    <a class="btn btn-danger">°°°</a>
+                    <h3><strong>Mato</strong></h3>
+                    <img src="{% static 'img/img03.jpeg' %}" width="100%">
+                    <p><small>Estatísticas</small></p>
+                    <a class="btn btn-primary">Facebook</a>
+                    <a class="btn btn-warning">Tweet</a>
+                    <a class="btn btn-danger">°°°</a>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+{% endblock %}
